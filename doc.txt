@@ -9,4 +9,14 @@ compile a file using g++:
 g++ file.cpp -o file `pkg-config --cflags --libs opencv`
 ./bin_file
 
+colour schemes:
+RGB
+HSV
+FSV
 
+CV_8UC3: 3 channel -- BGR
+
+Vec3b
+Scalar
+uchar
+C++ templates

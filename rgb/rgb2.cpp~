@@ -1,0 +1,19 @@
+include "opencv2/imgproc/imgproc.hpp"
+#include "opencv2/highgui/highgui.hpp"
+
+using namespace std;
+using namespace cv; 
+
+int main(){
+        Mat var1(200,400,CV_8UC1,0);
+        for(int i=0;i<var1.cols;i++){
+                for(int j=0;j<var1.rows;j++){
+			if(i<300)
+                        	var1.at<uchar>(i,j)=0;
+			else
+				var1.at<uchar>(i,j)=255;
+                }
+        }
+}
+
+
