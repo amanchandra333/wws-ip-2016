@@ -1,0 +1,12 @@
+day 1
+-----
+compile a file using cmake:
+cmake .
+make
+./bin_file
+
+compile a file using g++:
+g++ file.cpp -o file `pkg-config --cflags --libs opencv`
+./bin_file
+
+
