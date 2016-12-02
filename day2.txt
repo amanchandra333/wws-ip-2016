@@ -1,0 +1,33 @@
+gray scale and binary
+trackbar
+histogram
+extraction a particular colour with tolerance
+magnify and diminish an  image
+
+filters:
+mean filter
+median filter
+gaussian filter
+sobel filter
+
+
+gaussian kernel :
+1 2 1
+2 4 2
+1 2 1
+
+sobel kernel
+(Gx):
+-1 0 1
+-2 0 2
+-1 0 1
+Gy:
+-1 -2 -1
+0   0  0
+1   2  1
+
+I=sqrt(gx^2+gy^2)
+
+coloured sobel: original - sobels
+
+noise filter: edge detection
