@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amanchandra333/winter_workshop/firstp
+CMAKE_SOURCE_DIR = /home/amanchandra333/winter_workshop/histogrma
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amanchandra333/winter_workshop/firstp
+CMAKE_BINARY_DIR = /home/amanchandra333/winter_workshop/histogrma
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amanchandra333/winter_workshop/firstp/CMakeFiles /home/amanchandra333/winter_workshop/firstp/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amanchandra333/winter_workshop/histogrma/CMakeFiles /home/amanchandra333/winter_workshop/histogrma/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amanchandra333/winter_workshop/firstp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amanchandra333/winter_workshop/histogrma/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -112,19 +112,19 @@ a.out/fast:
 .PHONY : a.out/fast
 
 # target to build an object file
-first.o:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/first.o
-.PHONY : first.o
+histogram.o:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/histogram.o
+.PHONY : histogram.o
 
 # target to preprocess a source file
-first.i:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/first.i
-.PHONY : first.i
+histogram.i:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/histogram.i
+.PHONY : histogram.i
 
 # target to generate assembly for a file
-first.s:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/first.s
-.PHONY : first.s
+histogram.s:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/histogram.s
+.PHONY : histogram.s
 
 # Help Target
 help:
@@ -135,9 +135,9 @@ help:
 	@echo "... a.out"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... first.o"
-	@echo "... first.i"
-	@echo "... first.s"
+	@echo "... histogram.o"
+	@echo "... histogram.i"
+	@echo "... histogram.s"
 .PHONY : help
 
 

@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/amanchandra333/winter_workshop/firstp
+CMAKE_SOURCE_DIR = /home/amanchandra333/winter_workshop/magnify
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/amanchandra333/winter_workshop/firstp
+CMAKE_BINARY_DIR = /home/amanchandra333/winter_workshop/magnify
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amanchandra333/winter_workshop/firstp/CMakeFiles /home/amanchandra333/winter_workshop/firstp/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amanchandra333/winter_workshop/magnify/CMakeFiles /home/amanchandra333/winter_workshop/magnify/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/amanchandra333/winter_workshop/firstp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amanchandra333/winter_workshop/magnify/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -112,19 +112,19 @@ a.out/fast:
 .PHONY : a.out/fast
 
 # target to build an object file
-first.o:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/first.o
-.PHONY : first.o
+mag.o:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/mag.o
+.PHONY : mag.o
 
 # target to preprocess a source file
-first.i:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/first.i
-.PHONY : first.i
+mag.i:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/mag.i
+.PHONY : mag.i
 
 # target to generate assembly for a file
-first.s:
-	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/first.s
-.PHONY : first.s
+mag.s:
+	$(MAKE) -f CMakeFiles/a.out.dir/build.make CMakeFiles/a.out.dir/mag.s
+.PHONY : mag.s
 
 # Help Target
 help:
@@ -135,9 +135,9 @@ help:
 	@echo "... a.out"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... first.o"
-	@echo "... first.i"
-	@echo "... first.s"
+	@echo "... mag.o"
+	@echo "... mag.i"
+	@echo "... mag.s"
 .PHONY : help
 
 
